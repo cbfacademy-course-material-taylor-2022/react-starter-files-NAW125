@@ -1,7 +1,11 @@
 import React from 'react';
 
-function Book() {
-  return "This is the output of a book component. Replace this string with code to display an individual book's attributes.";
-}
+const Book = (props) => {
+  return (
+<div> <h1>tests</h1>
+ <h2>{props.Y} </h2>
 
+</div>
+);
+}
 export default Book;
