@@ -1,18 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-const name = '';
-
+const name = 'Natalie';
+const myName = 'Natalie '
 function Profile(name){
-if (name !== "") {
+if (name !== "Natalie") {
   return <main id="content" role="main" className="base">
-  <h1>{name}'s React Page</h1>
-    <p>Example of react JSX in action</p>
+  <h1>{myName}'s React Page</h1>
+    <p>focus on chocolate</p>
   </main>
 } else {
   return <main id="content" role="main" className="base">
-  <h1> just a React Page</h1>
-    <p>Nothing to see here</p>
+  <h1> {name}'s Focus on chocolate </h1>
+    <p>Showcasing
+       the best types of chocolate from across the world </p>
   </main>
 }
 
