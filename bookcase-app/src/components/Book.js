@@ -1,11 +1,14 @@
 import React from 'react';
 
-const Book = (props) => {
+const book = (props) => {
   return (
-<div> <h1>tests</h1>
- <h2>{props.Y} </h2>
+  <div> 
+    <h2>{props.book.title.volumeinfo}</h2>
+    <h3>{props.author}</h3>
+    /*<h4>{props.thumbnailImage}</h4>*/
+    <h5>{props.bookPrice}</h5>
+    </div>
+    );
+  }
 
-</div>
-);
-}
-export default Book;
+export default book;
