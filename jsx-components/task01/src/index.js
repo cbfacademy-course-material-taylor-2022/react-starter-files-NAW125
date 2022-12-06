@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-const name = 'Natalie';
+const name = 'Just';
 const myName = 'Natalie '
 function Profile(name){
 if (name !== "Natalie") {
@@ -12,13 +12,12 @@ if (name !== "Natalie") {
 } else {
   return <main id="content" role="main" className="base">
   <h1> {name}'s Focus on chocolate </h1>
-    <p>Showcasing
-       the best types of chocolate from across the world </p>
+    <p>Showcasing the best types of chocolate from across the world </p>
   </main>
-}
-
+  }
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(Profile(name));
 
+export default Profile

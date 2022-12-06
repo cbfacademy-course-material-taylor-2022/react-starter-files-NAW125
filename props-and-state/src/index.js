@@ -1,6 +1,6 @@
 import React, { useState, Fragment } from 'react';
 import ReactDOM from 'react-dom/client';
-//import data from './models/headphones.json';
+
 
 import GadgetList from './components/GadgetList';
 import headphones from './models/headphones.json'
@@ -11,7 +11,7 @@ const App = () => {
 
   return <section style={mainStyle}>
     <h1>Electronics Store</h1>
-    <GadgetList items={headphonesList}/>
+    <GadgetList var1={headphonesList} myvariable={12}/>
   </section>;
 }
 
